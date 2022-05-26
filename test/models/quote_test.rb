@@ -1,4 +1,4 @@
-# require 'test_helper'
+require 'test_helper'
 
 class Quote < ApplicationRecord
   validates :name, presence: true
