@@ -21,6 +21,9 @@ gem 'jsbundling-rails'
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem 'turbo-rails'
 
+# Forms made easy [https://rubygems.org/gems/simple_form]
+gem 'simple_form', '~> 5.1'
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem 'stimulus-rails'
 
