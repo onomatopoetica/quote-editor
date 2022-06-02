@@ -26,7 +26,7 @@ This was my third Rails project. I followed an interesting and very well written
 I was getting `psql: could not connect to server: No such file or directory` <br>
 `Is the server running locally and accepting connections on Unix domain socket"/var/pgsql_socket/.s.PGSQL.5432?`
 
-After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *If you're using you are using macOS and not M1* and for whatever reason it worked. :stuck_out_tongue:
+After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *if you're using you are using macOS (specifically Catalina 10.15.7) and not M1* and for whatever reason it worked. :stuck_out_tongue:
 ## Demo
 
 #### The following is a screenshot of the application and overview of its functionality (coming soon): <br>
@@ -62,7 +62,7 @@ If you're new to Ruby and Ruby On Rails *(like me!)* I've listed a few great res
 
 * Ensure you have [Node.js](https://nodejs.org), [Ruby](https://www.ruby-lang.org/en/documentation/installation/), and [Ruby On Rails](https://guides.rubyonrails.org/getting_started.html#creating-a-new-rails-project-installing-rails) installed on your machine.
 
-* Create a new Rails app by running the `rails new` *(and the project name)* command after installing Rails. E.g., In your terminal, type `rails new foodlog` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+* Create a new Rails app by running the `rails new` *(and the project name)* command after installing Rails. E.g., In your terminal, type `rails new quote-editor` to create the project. Now you can [clone the repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 * All dependencies required for this application are already listed in the `Gemfile`. Check to see whether you have Yarn and its version with `yarn -v`. If you need to install yarn, run the command `npm install --global yarn` command in your terminal.
 
