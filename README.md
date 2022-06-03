@@ -19,7 +19,7 @@
 Quote Editor is built with Ruby 3.0 and Ruby on Rails 7.0.3 and incorporates PostgreSQL as the database for Active Record. It is a single-page, reactive price quote editor allowing the user to `create`, `read`, `update`, and `delete` quotes for items and view a summary of price quotes.
 
 ## Lessons Learned
-This was my third Rails project. I followed an interesting and very well written tutorial by [Alexandre Ruban](https://twitter.com/alexandre_ruban) from [Hotrails](https://www.hotrails.dev/) but used a newer version of Rails (7.0.3) than the project (which warned me to use version 7.0.0 to avoid any unexpected issues). I did end up having an issue with PostgreSQL which I have documented here. It is not clear as to whether the issue was related to using a newer version or Rails or simply `user error`. I had previously installed Postgres using Homebrew (package manager for MacOS) but had not yet used it in an app. *I had previously only used `sqlite3` in my Rails apps*.
+This was my third Rails project. I followed an interesting and very well written tutorial by [Alexandre Ruban](https://twitter.com/alexandre_ruban) from [Hotrails](https://www.hotrails.dev/) but used a newer version of Rails (7.0.3) than the project (which warned me to use version 7.0.0 to avoid any unexpected issues). I did end up having an issue with PostgreSQL which I have documented here. It is not clear as to whether the issue was related to using a newer version or Rails or simply `user error`. I had previously installed Postgres using Homebrew (package manager for macOS) but had not yet used it in an app. *I had previously only used `sqlite3` in my Rails apps*.
 
 **TL;DR** --> It turned out I simply needed to `restart` the Postgres server.
 
