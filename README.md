@@ -26,7 +26,7 @@ This was my third Rails project. I followed an interesting and very well written
 The error I was getting was: `psql: could not connect to server: No such file or directory` <br>
 `Is the server running locally and accepting connections on Unix domain socket"/var/pgsql_socket/.s.PGSQL.5432?`
 
-After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *if you're using you are using macOS (specifically Catalina 10.15.7 and not M1)*. For whatever reason restarting the server worked. *"Have you tried turning it off and on again?"* :stuck_out_tongue:
+After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *Note: I am using macOS Catalina 10.15.7*. For whatever reason restarting the server worked. *"Have you tried turning it off and on again?"* :stuck_out_tongue:
 ## Demo
 
 #### The following is a screenshot of the application and overview of its functionality (coming soon): <br>
