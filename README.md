@@ -21,12 +21,12 @@ Quote Editor is built with Ruby 3.0 and Ruby on Rails 7.0.3 and incorporates Pos
 ## Lessons Learned
 This was my third Rails project. I followed an interesting and very well written tutorial by [Alexandre Ruban](https://twitter.com/alexandre_ruban) from [Hotrails](https://www.hotrails.dev/) but used a newer version of Rails (7.0.3) than the project (which warned me to use version 7.0.0 to avoid any unexpected issues). I did end up having an issue with PostgreSQL which I have documented here. It is not clear as to whether the issue was related to using a newer version or Rails or simply `user error`. I had previously installed Postgres using Homebrew (package manager for MacOS) but had not yet used it in an app. *I had previously only used `sqlite3` in my Rails apps*.
 
-**TL;DR** --> I needed to `restart` the Postgres server.
+**TL;DR** --> It turned out I simply needed to `restart` the Postgres server.
 
-I was getting `psql: could not connect to server: No such file or directory` <br>
+The error I was getting was: `psql: could not connect to server: No such file or directory` <br>
 `Is the server running locally and accepting connections on Unix domain socket"/var/pgsql_socket/.s.PGSQL.5432?`
 
-After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *if you're using you are using macOS (specifically Catalina 10.15.7) and not M1* and for whatever reason it worked. :stuck_out_tongue:
+After a couple of hours uninstalling and reinstalling Postgres, upgrading Postgres, and reading pages and pages of [Stackoverflow](https://stackoverflow.com/), I finally tried `brew services restart postgresql` *if you're using you are using macOS (specifically Catalina 10.15.7 and not M1)*. For whatever reason restarting the server worked. *"Have you tried turning it off and on again?"* :stuck_out_tongue:
 ## Demo
 
 #### The following is a screenshot of the application and overview of its functionality (coming soon): <br>
