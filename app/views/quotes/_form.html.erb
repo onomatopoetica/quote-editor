@@ -1,6 +1,7 @@
 <%= simple_form_for quote,
                     html: {
-                      class: "quote form"
+                      class: "quote form",
+                      data: { turbo: true }
                     } do |f| %>
   <% if quote.errors.any? %>
     <div class="error-message">
